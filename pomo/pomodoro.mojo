@@ -33,7 +33,7 @@ fn update_display(seconds_remaining: Int16):
     var minutes = seconds_remaining // 60
     var seconds = seconds_remaining % 60
     print("\rTimer 🍅⏳", minutes, ":", seconds, end="")
-    
+
 @always_inline
 fn display_message(message: String) raises:
     print("\n", message)
@@ -44,7 +44,7 @@ fn start_timer(duration: Int16) raises:
     var seconds_remaining = duration
 
     while seconds_remaining > 0:
-        sleep(1)
+        sleep(1.0)
         seconds_remaining -= 1
         update_display(seconds_remaining)
     display_message("Time's up!")

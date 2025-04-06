@@ -25,6 +25,11 @@ Then move into the pomodoro-timer before running the program:
      cd pomodoro-timer
 ```
 
+### Activate the environment shell with:
+```
+     magic shell
+```
+
 ### Run the program directly:
 ```
      mojo main.mojo
