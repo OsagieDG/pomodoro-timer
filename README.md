@@ -16,7 +16,7 @@ After you have created the mojo project you can then clone this repo
 inside of your project
 using:
 ```
-     git clone https://github.com/OsagieDG/pomodoro-timer.git
+     git clone https://github.com/cli-prod/pomodoro-timer.git
 ```
 
 Then move into the pomodoro-timer before running the program:
@@ -31,10 +31,10 @@ Then move into the pomodoro-timer before running the program:
 
 ### Run the program directly:
 ```
-     mojo main.mojo
+     mojo pomo.mojo
 ```
 
-![pomo](https://github.com/OsagieDG/pomodoro-timer/blob/main/pomo.png)
+![pomo](https://github.com/cli-prod/pomodoro-timer/blob/main/pomo.png)
 
 
 
