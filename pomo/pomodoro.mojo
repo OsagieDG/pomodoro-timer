@@ -37,7 +37,7 @@ fn update_display(seconds_remaining: Int16):
 @always_inline
 fn display_message(message: String) raises:
     print("\n", message)
-#    call_alert(message)
+    call_alert(message)
 
 @always_inline
 fn start_timer(duration: Int16) raises:
