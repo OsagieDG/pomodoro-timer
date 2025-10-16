@@ -1,0 +1,12 @@
+Thread   Start(us)  B/E     Dur(us)  Name/Detail
+------  ----------  ---  ----------  ------------------------------
+ 18895     1105137  BEG        8845  AnnotateKernels
+ 18895     1113982  END        8845  AnnotateKernels
+ 18895     1113985  BEG         444  VerifyKernels
+ 18895     1114429  END         444  VerifyKernels
+ 18895     1114430  BEG        6944  LowerSemanticCF
+ 18895     1121374  END        6944  LowerSemanticCF
+ 18895     1121378  BEG       44527  CheckLifetimes
+ 18895     1123459  BEG           9  (A) SymbolTableAnalysis
+ 18895     1123469  END           9  (A) SymbolTableAnalysis
+ 18895     1165905  END       44527  CheckLifetimes

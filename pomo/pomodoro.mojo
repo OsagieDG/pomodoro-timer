@@ -1,8 +1,6 @@
 from time import sleep
 from python import Python
 
-var Work_Duration: Int16 = 50 * 60
-var Break_Duration: Int16 = 10 * 60
 
 @always_inline
 fn setup_python_path() raises:
@@ -18,6 +16,8 @@ fn call_alert(message: String) raises:
 @always_inline
 fn start_pomodoro_timer() raises:
     var is_working = True
+    var Work_Duration: Int16 = 50 * 60
+    var Break_Duration: Int16 = 10 * 60
 
     while True:
         if is_working:
@@ -37,7 +37,7 @@ fn update_display(seconds_remaining: Int16):
 @always_inline
 fn display_message(message: String) raises:
     print("\n", message)
-    call_alert(message)
+#    call_alert(message)
 
 @always_inline
 fn start_timer(duration: Int16) raises:
