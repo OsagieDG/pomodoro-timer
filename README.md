@@ -5,11 +5,11 @@ Supported systems: macOS, Linux, and Windows (with WSL).
 
 Note: The sound alerts currently only work for macOS.
 
-for macOS users
+### macOS users
 Modify the file path of the setup_python_path function
 in the pomodoro.mojo file to enable the sound alert feature.
 
-for Linux users
+### Linux/WSL users
 Comment out the call_alert function
 
 ### Steps before cloning this repo and running the program

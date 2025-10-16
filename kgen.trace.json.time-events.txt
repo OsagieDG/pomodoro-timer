@@ -1,42 +1,12 @@
 Thread   Start(us)  B/E     Dur(us)  Name/Detail
 ------  ----------  ---  ----------  ------------------------------
- 19258     1275210  BEG          18  AnnotateKernels
- 19258     1275229  END          18  AnnotateKernels
- 19258     1275230  BEG           0  VerifyKernels
- 19258     1275231  END           0  VerifyKernels
- 19258     1275231  BEG           0  LowerSemanticCF
- 19258     1275232  END           0  LowerSemanticCF
- 19258     1275233  BEG           8  CheckLifetimes
- 19258     1275236  BEG           4  (A) SymbolTableAnalysis
- 19258     1275240  END           4  (A) SymbolTableAnalysis
- 19258     1275241  END           8  CheckLifetimes
- 19258     7151845  BEG        5279  AnnotateKernels
- 19258     7157124  END        5279  AnnotateKernels
- 19258     7157126  BEG         409  VerifyKernels
- 19258     7157535  END         409  VerifyKernels
- 19258     7157537  BEG        5883  LowerSemanticCF
- 19258     7163420  END        5883  LowerSemanticCF
- 19258     7163423  BEG       44110  CheckLifetimes
- 19258     7164629  BEG           8  (A) SymbolTableAnalysis
- 19258     7164637  END           8  (A) SymbolTableAnalysis
- 19258     7207534  END       44110  CheckLifetimes
- 19258    14489169  BEG        3378  AnnotateKernels
- 19258    14492548  END        3378  AnnotateKernels
- 19258    14492549  BEG         394  VerifyKernels
- 19258    14492943  END         394  VerifyKernels
- 19258    14492944  BEG        5462  LowerSemanticCF
- 19258    14498407  END        5462  LowerSemanticCF
- 19258    14498409  BEG       37706  CheckLifetimes
- 19258    14499511  BEG           8  (A) SymbolTableAnalysis
- 19258    14499519  END           8  (A) SymbolTableAnalysis
- 19258    14536115  END       37706  CheckLifetimes
- 19258    16379308  BEG        4185  AnnotateKernels
- 19258    16383494  END        4185  AnnotateKernels
- 19258    16383495  BEG         396  VerifyKernels
- 19258    16383892  END         396  VerifyKernels
- 19258    16383893  BEG        5566  LowerSemanticCF
- 19258    16389460  END        5566  LowerSemanticCF
- 19258    16389462  BEG       37620  CheckLifetimes
- 19258    16390567  BEG           8  (A) SymbolTableAnalysis
- 19258    16390575  END           8  (A) SymbolTableAnalysis
- 19258    16427083  END       37620  CheckLifetimes
+ 19538     1352201  BEG        3213  AnnotateKernels
+ 19538     1355414  END        3213  AnnotateKernels
+ 19538     1355415  BEG         379  VerifyKernels
+ 19538     1355795  END         379  VerifyKernels
+ 19538     1355796  BEG        5138  LowerSemanticCF
+ 19538     1360934  END        5138  LowerSemanticCF
+ 19538     1360935  BEG       34853  CheckLifetimes
+ 19538     1361992  BEG           7  (A) SymbolTableAnalysis
+ 19538     1361999  END           7  (A) SymbolTableAnalysis
+ 19538     1395788  END       34853  CheckLifetimes
